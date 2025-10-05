@@ -1,0 +1,64 @@
+body{  
+   font-family: "Quicksand", sans-serif;
+
+}
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+.outer-container{
+    border-radius:10px ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    margin: 130px auto;
+    
+    height: 435px;
+    width: 300px;
+}
+img{
+    padding: 5px;
+   border-radius: 10px;
+   
+}
+.buttons{
+    word-spacing: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: gray;
+}
+.btn{
+    padding: 0 5px;
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+.plat{
+    margin-left: 100px;
+}
+.heading{
+    font-size: 1.3rem;
+    margin-left: 10px;
+    
+    margin-top: 20px;
+}
+.para{
+    font-weight: 650;
+    font-size: 1rem;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.read-me{
+    margin-top: 40px;
+    text-align: center;
+}
+a{
+    background-color: rgb(147, 213, 246);
+    border-radius: 20px;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: rgb(39, 113, 224);
+}
+a:hover{
+    background-color: rgb(21, 129, 183);
+    color: rgb(255, 255, 255);
+}
